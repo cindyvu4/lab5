@@ -45,7 +45,7 @@ $.getJSON("Bike_Racks.json",function(data){
 
 
 	//load GeoJSON
-	$.getJSON("bike.json",function(data){
+	$.getJSON("Bike.json",function(data){
 			L.geoJson(data, {
 			style: function(feature) {
 				return {
